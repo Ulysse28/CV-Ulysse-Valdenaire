@@ -1,26 +1,112 @@
 body{
     width : 800px;
     margin:auto;
-}
+    font-family:arial, sans-serif;}
+  
 
 .container{
     display:flex;
 }
 
-h1, h2{
+h1{
     
-    border:1px solid black;
+   
     margin-left:70px;;
+}
+
+h2{
+    margin-left:90px;
 }
 
 
 .libelle{
-    background: linear-gradient(to bottom right, rgb(102, 155, 235), white);
-    padding:10px;
-    width:220px;
+    background: linear-gradient( rgb(136, 136, 175), rgb(98, 131, 177));
+    padding:15px;
+    width:230px;
     border-radius:10px;
 }
 
 .main_content{
     margin-left:20px;
+   
 }
+
+.title{
+    background-color:rgb(98, 131, 177) ;
+    width:20%;
+    padding:3px;
+    border-radius: 5px;
+}
+
+.title2{
+    width:25%;
+}
+
+.title1{
+    width:10%;
+}
+
+.title3{
+    width:40%;
+}
+.title4{
+    width:23%;
+}
+
+.float{
+    float:left;
+}
+
+
+
+
+.gmail{
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+    display : list-item;
+    list-style-image : url("images/enveloppe-gmail.png");
+}
+
+.phone{
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color:black;
+    display:list-item;
+    list-style-image : url("images/phone\ \(2\).png")
+}
+
+.home{
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+    display : list-item;
+    list-style-image : url("images/accueil.png");
+}
+
+.github{
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+    display : list-item;
+    list-style-image : url("images/logo-github.png");
+}
+
+.linkedin{
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    color: black;
+    display : list-item;
+    list-style-image : url("images/logo-linkedin.png");
+}
+
+.level{
+    height: 3px;
+    width:10px;
+    color:black;
+}
+
+.profil{
+    text-align:justify;
+}
+
