@@ -1,112 +1,110 @@
-body{
-    width : 800px;
-    margin:auto;
-    font-family:arial, sans-serif;}
-  
+/*
+CV Ulysse Valdenaire
+CSS File
+06/08/2021
+*/
 
-.container{
-    display:flex;
+body {
+  width: 800px;
+  margin: auto;
+  font-family: arial, sans-serif;
 }
 
-h1{
-    
-   
-    margin-left:70px;;
+.container {
+  display: flex;
 }
 
-h2{
-    margin-left:90px;
+h1 {
+  margin-left: 70px;
 }
 
-
-.libelle{
-    background: linear-gradient( rgb(136, 136, 175), rgb(98, 131, 177));
-    padding:15px;
-    width:230px;
-    border-radius:10px;
+h2 {
+  margin-left: 90px;
 }
 
-.main_content{
-    margin-left:20px;
-   
+.libelle {
+  background: linear-gradient(rgb(136, 136, 175), rgb(98, 131, 177));
+  padding: 15px;
+  width: 230px;
+  border-radius: 10px;
 }
 
-.title{
-    background-color:rgb(98, 131, 177) ;
-    width:20%;
-    padding:3px;
-    border-radius: 5px;
+.main_content {
+  margin-left: 20px;
 }
 
-.title2{
-    width:25%;
+.title {
+  background-color: rgb(98, 131, 177);
+  width: 20%;
+  padding: 3px;
+  border-radius: 5px;
 }
 
-.title1{
-    width:10%;
+.title2 {
+  width: 25%;
 }
 
-.title3{
-    width:40%;
-}
-.title4{
-    width:23%;
+.title1 {
+  width: 10%;
 }
 
-.float{
-    float:left;
+.title3 {
+  width: 40%;
+}
+.title4 {
+  width: 23%;
 }
 
-
-
-
-.gmail{
-    font-family: Arial, sans-serif;
-    font-size: 100%;
-    color: black;
-    display : list-item;
-    list-style-image : url("images/enveloppe-gmail.png");
+.float {
+  float: left;
 }
 
-.phone{
-    font-family: Arial, sans-serif;
-    font-size: 100%;
-    color:black;
-    display:list-item;
-    list-style-image : url("images/phone\ \(2\).png")
+.gmail {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  color: black;
+  display: list-item;
+  list-style-image: url("images/enveloppe-gmail.png");
 }
 
-.home{
-    font-family: Arial, sans-serif;
-    font-size: 100%;
-    color: black;
-    display : list-item;
-    list-style-image : url("images/accueil.png");
+.phone {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  color: black;
+  display: list-item;
+  list-style-image: url("images/phone\ \(2\).png");
 }
 
-.github{
-    font-family: Arial, sans-serif;
-    font-size: 100%;
-    color: black;
-    display : list-item;
-    list-style-image : url("images/logo-github.png");
+.home {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  color: black;
+  display: list-item;
+  list-style-image: url("images/accueil.png");
 }
 
-.linkedin{
-    font-family: Arial, sans-serif;
-    font-size: 100%;
-    color: black;
-    display : list-item;
-    list-style-image : url("images/logo-linkedin.png");
+.github {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  color: black;
+  display: list-item;
+  list-style-image: url("images/logo-github.png");
 }
 
-.level{
-    height: 3px;
-    width:10px;
-    color:black;
+.linkedin {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  color: black;
+  display: list-item;
+  list-style-image: url("images/logo-linkedin.png");
 }
 
-.profil{
-    text-align:justify;
+.level {
+  height: 3px;
+  width: 10px;
+  color: black;
 }
 
+.profil {
+  text-align: justify;
+}
